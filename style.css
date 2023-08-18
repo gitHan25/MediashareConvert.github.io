@@ -1,0 +1,46 @@
+*,
+html,
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body {
+  background-color: aqua;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+.form {
+  margin: auto;
+  max-width: 350px;
+  padding: 100px;
+}
+input[type="number"] {
+  border-radius: 6px;
+  display: inline-block;
+  width: 100%;
+
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.convertBtn {
+  border-radius: 6px;
+  display: inline-block;
+  width: 30%;
+  opacity: 0.7;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.convertBtn:hover {
+  cursor: pointer;
+  opacity: 1;
+  background-color: inherit;
+  transition: 0.3s all ease-in-out;
+}
+.switcher {
+  border: 3px solid red;
+  margin-left: 85%;
+}
